@@ -7,11 +7,11 @@ class DelayedButton extends React.Component {
     }
 Lk:>
     onReceiveCoordinates = () => console.log([clientX,clientYk]);
-    render() { 
-        return ( 
+    render() {
+        return (
             <button onClick={this.props.onReceiveCoordinates}> CoordinatesButton </button>
          );
     }
 }
- 
+
 export default DelayedButton;
